@@ -62,4 +62,3 @@ function PostmanExec()
 end
 
 vim.api.nvim_create_user_command("PostmanExec", PostmanExec, {})
-vim.keymap.set("n", "<Leader>rl", PostmanExec)
